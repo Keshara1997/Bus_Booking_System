@@ -1,0 +1,243 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font: 2vw/ "Lucida Sans Unicode";
+}
+
+body {
+  margin: 0px;
+  overflow: visible;
+  position: relative;
+  height: 100vh;
+}
+
+.top1 {
+  background-image: url(../img/country_hub_page-bus-mw.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 47vh;
+  box-shadow: 0px -190px 50px 0px rgba(0, 0, 0, 0.377) inset;
+}
+.navigation_bar {
+  position: absolute;
+  width: 85vw;
+  left: 7.5vw;
+  top: 3vh;
+}
+
+nav li {
+  float: right;
+  list-style-type: none;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  padding: 1.3vw;
+  display: block;
+  font-size: 1.3vw;
+  transition: background-color 0.2s, color 0.2s;
+  align-self: center;
+}
+
+li a:hover {
+  background-color: rgb(12, 120, 207);
+  color: white;
+}
+
+nav {
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 18px;
+}
+
+.drop_start {
+  float: right;
+  clear: right;
+  width: 13vw;
+  animation: start;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+}
+.drop_finish {
+  float: right;
+  clear: right;
+  width: 13vw;
+  border-top: 0px;
+  animation: finish;
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+}
+
+.drop_start li,
+.drop_finish li {
+  list-style: none;
+}
+
+.drop {
+  display: none;
+}
+.logo {
+  width: 16vw;
+  height: 3.8vw;
+}
+.top1 h2 {
+  position: absolute;
+  top: 27vh;
+  left: 9vw;
+  color: white;
+  font-size: 3.2vw;
+  font-weight: 100;
+}
+
+.top1 h1 {
+  position: absolute;
+  top: 19vh;
+  left: 8.7vw;
+  font-size: 4.5vw;
+  font: italic 5vw/30px "arvo";
+  color: rgb(255, 255, 255);
+  transition: transform 2s, color 2s;
+}
+
+.top1 h1:hover {
+  transform: translateX(8vw);
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 775px) {
+  a {
+    font-size: 10px;
+  }
+  span {
+    font-size: 14px;
+  }
+}
+@keyframes finish {
+  from {
+    height: 8.2vw;
+  }
+  to {
+    height: 0vw;
+  }
+}
+@keyframes start {
+  from {
+    height: 0vw;
+  }
+  to {
+    height: 8.2vw;
+  }
+}
+/*Thanks*/
+.thank
+{
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 3vw;
+
+}
+/*Footer*/
+footer {
+  height: 15vw;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: black;
+}
+footer a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  font-size: 1.2vw;
+  padding: 0.3vw;
+  line-height: 1.5vw;
+  padding-left: 1vw;
+}
+footer h5 {
+  color: white;
+  font-size: 1.7vw;
+  padding: 1vw;
+}
+footer img {
+  height: 4vw;
+}
+footer p {
+  color: white;
+  font-size: 0.8vw;
+  position: absolute;
+  bottom: 0vh;
+  left: 43vw;
+}
+/*more part*/
+.more {
+  float: left;
+}
+/*app part*/
+.apps {
+  float: left;
+  position: absolute;
+  left: 40vw;
+}
+.apps .apple {
+  position: absolute;
+  left: 5vw;
+  top: 3.4vw;
+}
+
+.apps .android {
+  position: absolute;
+  left: 5vw;
+  top: 9.4vw;
+}
+/*social part*/
+.social {
+  float: right;
+  position: absolute;
+  right: 2vw;
+}
+.social .fb {
+  position: absolute;
+  top: 4.8vw;
+  right: 11.2vw;
+  height: 3.7vw;
+}
+
+.social .insta {
+  position: absolute;
+  top: 4.8vw;
+  right: 5.9vw;
+  height: 3.7vw;
+}
+
+.social .twitter {
+  position: absolute;
+  top: 5vw;
+  right: 1vw;
+  height: 3.3vw;
+}
+
+.social .utube {
+  position: absolute;
+  top: 9vw;
+  right: 11vw;
+}
+.social .linkedin {
+  position: absolute;
+  top: 9vw;
+  right: 5.8vw;
+  height: 3.8vw;
+}
+
+.social .reddit {
+  position: absolute;
+  top: 9vw;
+  right: 1vw;
+  height: 3.8vw;
+}

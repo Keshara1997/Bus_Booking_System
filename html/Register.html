@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../javascript/register.js"></script>
+</head>
+<body>
+    <!--header and nav bar begins-->
+    <div class="top1">
+        <div class="navigation_bar">
+            <nav>
+                <ul>
+                    <a href="../html/index.html"><img class="logo" src="../img/Capture-removebg-preview.png" alt="logo"></a>
+                    <li><a href="../php/login.php">Login</a></li>
+                    <li><a href="../html/Register.html">Register</a></li>
+                    <li><a href="../html/contact us.html">Contact Us</a></li>
+                    <li><a href="../html/about us.html">About Us</a></li>
+                    <li><a href="../html/index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+        <h1>bookBUS</h1>
+        <h2>Plan,book and enjoy your journey</h2>
+    
+    </div>
+    <!--header and nav bar ends-->
+    <!--Register form starts-->
+    <img src="../img/bus/icons8-down.gif" alt="">
+    <form action="../php/register.php" method="POST"  onsubmit="validate(event)">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <label for="NIC">NIC number:</label>
+        <input type="text" id="NIC" name="NIC">
+        <label for="e-mail">E-mail:</label>
+        <input type="email" id="e-mail" name="e-mail">
+        <label for="mnumber">Mobile number</label>
+        <input type="tel" id="mnumber" name="mnumber">
+        <label for="uname">User name:</label>
+        <input type="text" id="uname" name="uname">
+        <label for="password">password</label>
+        <input type="password" id="password" name="password">
+        <label for="password2">Re-enter password</label>
+        <input type="password" id="password2" name="password2">
+        <label for="terms">I agree to all the </label> <a href="#">Terms & conditions</a>
+        <input type="checkbox" id="terms" name="terms" required>
+        <button type="submit">Register</button>
+    </form>
+    <!--Register form ends-->
+    <!--Notice from the side starts-->
+    <div class="side_notice">
+        <h2>Get a free membership for more exclusive experience</h2>
+        <p>"Relaxed mind makes a journey better  <br>even in the toughest roads"</p>
+        <img src="../img/bus/icons8-bus.gif" alt="">
+    </div>
+    <!--Notice from the side ends-->
+    <!--Discount table starts-->
+    <h3>Today's special discounts</h3>
+    <table>
+        <tr>
+            <th style="border-top-left-radius: 20px;">To</th>
+            <th>From</th>
+            <th style="border-top-right-radius: 20px;">Discount</th>
+        </tr>
+        <tr>
+            <td>Kandy</td>
+            <td>Colombo</td>
+            <td>10%</td>
+        </tr>
+        <tr>
+            <td>Colombo</td>
+            <td>Kegalle</td>
+            <td>9%</td>
+        </tr>
+        <tr>
+            <td style="border-bottom-left-radius: 20px;">Colombo</td>
+            <td>Galle</td>
+            <td style="border-bottom-right-radius: 20px;">11%</td>
+        </tr>
+    </table>
+    <!--Discount table ends-->
+    <!--Book button starts-->
+    <a href="#">Book a seat now!!!</a>
+    <!--Book button ends-->
+    <!--footer starts here-->
+    <footer>
+        <div class="more">
+            <h5>More</h5>
+            <a href="../html/contact us.html">Contact us</a>
+            <a href="../html/about us.html">About us</a>
+            <a href="#">Site map</a>
+            <a href="#">FAQ</a>
+            <a href="#">Terms and conditions</a>
+        </div>
+        <div class="apps">
+            <h5>Download our app</h5>
+            <a href="#"><img class="android" src="../img/footer/android.png" alt=""></a>
+            <a href="#"><img class="apple" src="../img/footer/apple.png" alt=""></a>
+        </div>
+        <div class="social">
+            <h5>Our social media</h5>
+            <a href="www.facebook.com"><img class="fb" src="../img/footer/fb.png" alt=""></a>
+            <a href="#"><img class="insta" src="../img/footer/insta.png" alt=""></a>
+            <a href="#"><img class="twitter" src="../img/footer/twitter.png" alt=""></a>
+            <a href="#"><img class="utube" src="../img/footer/icons8-youtube-100.png" alt=""></a>
+            <a href="#"><img class="linkedin" src="../img/footer/icons8-linkedin-24.png" alt=""></a>
+            <a href="#"><img class="reddit" src="../img/footer/redit.png" alt=""></a>
+        </div>
+        <p>Copyright@ 2021 bookbus</p>
+    </footer>
+    <!--Footer ends-->
+</body>
+</html>
